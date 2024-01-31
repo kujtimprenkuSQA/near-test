@@ -96,6 +96,12 @@ export default function Home() {
       >
         Sign Message (My Near Wallet)
       </button>
+      <button
+        className="border-2 border-black px-4 py-2"
+        onClick={() => signMessage("sender")}
+      >
+        Sign Message (Sender)
+      </button>
     </main>
   );
 }
